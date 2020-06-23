@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.coin.samplecoin.ui.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/home">
+        <action
+            android:id="@+id/action_homeFragment_to_codeFragment"
+            app:destination="@id/codeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_scanFragment"
+            app:destination="@id/scanFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/codeFragment"
+        android:name="com.coin.samplecoin.ui.CodeFragment"
+        android:label="CodeFragment"
+        tools:layout="@layout/qr_code" />
+
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.coin.samplecoin.ui.ScanFragment"
+        android:label="ScanFragment"
+        tools:layout="@layout/qr_scan" />
+
+
+</navigation>

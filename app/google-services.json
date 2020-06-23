@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "120954126488",
+    "firebase_url": "https://elxpay-5e80f.firebaseio.com",
+    "project_id": "elxpay-5e80f",
+    "storage_bucket": "elxpay-5e80f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120954126488:android:b6cfa11ccf56999bb310ed",
+        "android_client_info": {
+          "package_name": "com.elxmgtcom.elxpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120954126488-3jmuiueurcpljfrkimkmuveomvl2b1c8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elxmgtcom.elxpay",
+            "certificate_hash": "f0586c7c86aeb9873ee03cc9b9766748fcd3c468"
+          }
+        },
+        {
+          "client_id": "120954126488-hm64r5u23lmgbnlq9nrt8j6bp8h12thg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDL0PCtTGftFYQDdSw98O3HWR-2JKVjgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120954126488-hm64r5u23lmgbnlq9nrt8j6bp8h12thg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
